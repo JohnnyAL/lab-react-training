@@ -27,6 +27,7 @@ let Greetings = props => {
   } else if (props.lang == "en") {
     greeting += "Hello";
   }
+
   return (
     <p>
       {greeting} {props.children}
