@@ -185,7 +185,7 @@ let FaceBook = props => {
   return profiles.map(profile => {
     return (
       <div>
-        <img src={profile.img} alt="profile-pic" />{" "}
+        <img src={profile.img} alt="profile-pic" />
         <ul>
           <li>First Name: {profile.firstName}</li>
           <li>Last Name: {profile.lastName}</li>
